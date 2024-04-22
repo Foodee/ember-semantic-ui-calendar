@@ -2,7 +2,7 @@ import Component from '@ember/component';
 import { computed } from '@ember/object';
 import { isEmpty } from '@ember/utils';
 import Base from 'semantic-ui-ember/mixins/base';
-import { invokeAction } from 'ember-invoke-action';
+import { invokeAction } from './invoke-action-mixin';
 import layout from '../templates/components/ui-calendar';
 
 /**
